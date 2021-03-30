@@ -6,7 +6,9 @@ namespace Sample2
     {
         static void Main(string[] args)
         {
-            ReplaceString.ReadInput();
+            \\ReplaceString.ReadInput();
+           \\ Console.Read();
+            FlipCoin.ReadInput();
             Console.Read();
         }
     }
