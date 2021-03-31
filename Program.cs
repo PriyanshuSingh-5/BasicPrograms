@@ -6,10 +6,19 @@ namespace Sample2
     {
         static void Main(string[] args)
         {
-            \\ReplaceString.ReadInput();
-           \\ Console.Read();
-            FlipCoin.ReadInput();
-            Console.Read();
+            //ReplaceString.ReadInput();
+            //ReplaceString replace = new ReplaceString();
+            
+            //ReplaceString.ReadInput();
+
+            //Console.Read();
+            //FlipCoin flip = new FlipCoin();
+
+
+            //flip.ReadInput();
+            //Leap.InputRead();
+            
+
         }
     }
 }

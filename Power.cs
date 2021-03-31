@@ -8,23 +8,24 @@ namespace Sample2
 {
     class Power
     {
-        public static void Main()
+        public static void main()
         {
-            int e;
-            int result;
+            int number = Convert.ToInt32(number);
+            int num = 1;
+            int i = 1;
+            int LimitPowerTwo = 31;
 
-            for (int i = 0; i < 10; i++)
+            if (number > LimitPowerTwo)
             {
-                result = 1;
-                e = i;
+                Console.WriteLine("enter { number}  2^ exceeds the value");
 
-                while (e > 0)
+            }
+            else
+                for(i = 1;i<=number;i++)
                 {
-                    result *= 2;
-                    e--;
+                    num = (num * 2);
                 }
-
-                Console.WriteLine("2 to the " + i + " power is " + result);
+            Console.WriteLine("num");
             }
         }
     }

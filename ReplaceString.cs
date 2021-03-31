@@ -6,21 +6,22 @@ using System.Threading.Tasks;
 
 namespace Sample2
 {
-    class ReplaceString
+    public class ReplaceString
     {
-        public static void ReadInput
+
+        public static void ReadInput()
         {
-    string template = "Hello <<Username>> ,How are you?";
-        Console.WriteLine("please enter your name");
-            string UserInput = Console.ReadLine();
-        ReplaceWord(template, UserInput);
+            string template = "Hello <<UserName>>, How are you?";
+            Console.WriteLine("Please Enter your name");
+            string userInput = Console.ReadLine();
+            ReplaceWord(template, userInput);
+
+        }
+
+        private static void ReplaceWord(string template, string userInput)
+        {
+            string result = template.Replace("<<UserName>>", userInput);
+            Console.WriteLine("After done Replace\t " + result);
+        }
     }
 }
-
-    private void ReplaceWord(string template,string UserInput)
-    
-    {
-        string result = template.Replace("<<username>>", UserInput);
-        Console.WriteLine("after done replace" + result);
-    }
-

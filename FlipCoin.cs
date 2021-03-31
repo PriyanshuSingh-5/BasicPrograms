@@ -1,30 +1,36 @@
 ﻿using System;
 
-public class Flipcoin
+class FlipCoin
 {
-	public static void ReadInput()
-	{
-		Console.WriteLine("please enter no. of times to flip coin");
-		int numOfTimes = Convert.ToInt32(Console.ReadLine());
-		Flipcoin(numOfTimes);
-	}
-	private static vid Flip(int n)
+    public void ReadInput()
     {
-		int tail = 0;
-		int head = 0;
-		Random random = new Random();
-		for(int i=1;i<=n;i++)
+        Console.WriteLine("Please Enter number of times to flip coin");
+        //converting from String into int with the help Convert.ToInt32()
+        int numberOfTimes = Convert.ToInt32(Console.ReadLine());
+        //calling Flip() metthod
+        Flip(numberOfTimes);
+
+    }
+
+    private static void Flip(int numberOfTimes)
+    {
+        //Initialization of variables
+        int tail = 0; int head = 0;
+        //Object creation for Predefined Random class
+        Random random = new Random();
+        //using for loop to iterate till condition fails 
+        for (int i = 1; i <= numberOfTimes; i++)
         {
-			if (random.NextDouble() < 0.5)
-				tail++
-					else
-				head++;
+            //using random function called NextDouble() to get random value 0 to 1
+            if (random.NextDouble() < 0.5)
+                tail++;
+            else
+                head++;
+
         }
+        double tailPercentage = (double)tail / numberOfTimes * 100;
+        double headPercentage = (double)head / numberOfTimes * 100;
+        Console.WriteLine(" Tail count " + numberOfTimes + " = " + tail + "Percentage" + tailPercentage);
+        Console.WriteLine("Head count " + numberOfTimes + " = " + head + "Percentage" + headPercentage);
     }
 }
-double tailPercentage = (double)tailPercentage / numOfTimes * 100;
-double headPercentage = (double)headPercentage / numOfTimes * 100;
-Console.WriteLine("tailcount" + "=" + tailPercentage + "\tPercentage");
-Console.WriteLine("headcount" + "=" + headPercentage + "\tPercentage");
-
-
