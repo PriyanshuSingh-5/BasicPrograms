@@ -5,12 +5,12 @@ public class Leap
 
 		public static void InputRead()
 	{
-		Console.WriteLine("enter a year");
+		Console.WriteLine("Enter a year");
 		int year = Convert.ToInt32(Console.ReadLine());
-		LEAP(year); 
+		LeapYear(year); 
 	}
 		
-		public static void LEAP(int year)
+		public static void LeapYear(int year)
 		{
 		int a = year % 4;
 		int b = year % 400;

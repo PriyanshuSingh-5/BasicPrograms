@@ -7,17 +7,17 @@ namespace Sample2
         static void Main(string[] args)
         {
             //ReplaceString.ReadInput();
-            //ReplaceString replace = new ReplaceString();
-            
+            //ReplaceString replace = new ReplaceString()
             //ReplaceString.ReadInput();
-
-            //Console.Read();
             //FlipCoin flip = new FlipCoin();
-
-
-            //flip.ReadInput();
+            //Flip.ReadInput();
+            //Leap LeapYear = new Leap();
             //Leap.InputRead();
-            
+            //Harmonic.ReadHarmonicNumber();
+            MultiDimensional.ReadMultiArray();
+            Console.Read();
+
+
 
         }
     }

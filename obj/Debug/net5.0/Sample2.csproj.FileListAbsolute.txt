@@ -3,3 +3,14 @@ C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\Sample2.Gen
 C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\Sample2.AssemblyInfoInputs.cache
 C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\Sample2.AssemblyInfo.cs
 C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\Sample2.csproj.CoreCompileInputs.cache
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\bin\Debug\net5.0\Sample2.exe
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\bin\Debug\net5.0\Sample2.deps.json
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\bin\Debug\net5.0\Sample2.runtimeconfig.json
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\bin\Debug\net5.0\Sample2.runtimeconfig.dev.json
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\bin\Debug\net5.0\Sample2.dll
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\bin\Debug\net5.0\ref\Sample2.dll
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\bin\Debug\net5.0\Sample2.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\Sample2.dll
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\ref\Sample2.dll
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\Sample2.pdb
+C:\Users\K.R.DHASHNIGA\source\repos\Sample2\Sample2\obj\Debug\net5.0\Sample2.genruntimeconfig.cache
